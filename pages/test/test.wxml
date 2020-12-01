@@ -1,0 +1,16 @@
+<view >tomato-clock</view>
+<view >{{message}}</view>
+<view  id="div-{{number}}"> id的值是div-1 </view>
+<view wx:if="{{togger}}">我是show</view>
+<view wx:else>我是不show</view>
+<view hidden="{{togger}}">hidden</view>
+<view hidden="{{!togger}}">!hidden</view>
+<view wx:for="{{arr2}}" wx:key="id"> {{item.id}}  {{item.text}}</view>
+<view wx:for="{{arr}}" wx:key="index"> {{index}}{{item}}</view>
+-----------------
+<view>{{str}}</view>
+<view>{{str2}}</view> 
+<button bindtap="useReverse">反过来</button>
+-----------------
+<view>{{obj.id}}{{obj.text}}</view>
+<button bindtap="changeObjText">change</button>

@@ -1,8 +1,8 @@
 {
   "pages":[
-    //路径
-    "pages/logs/logs",
-    "pages/index/index"
+    "pages/test/test",
+    "pages/index/index",
+    "pages/logs/logs"
   ],
   "window":{
     "backgroundTextStyle":"light",
