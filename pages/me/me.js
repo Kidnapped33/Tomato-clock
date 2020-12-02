@@ -1,29 +1,11 @@
-// pages/test/test.js
+// pages/me/me.js
 Page({
+
+  /**
+   * 页面的初始数据
+   */
   data: {
-    message:'first',
-    number:1,
-    togger:true,
-    arr2:[{id:1,text:1},{id:2,text:2},{id:3,text:3}],
-    arr:[1,2,3],
-    str:"woshistr",
-    str2:"我是反过来",
-    array:[1,2,3],
-    array2:[1,2,3],
-    obj:{id:1,text:"i am 1"},
-    selected:false,
-  },
-  changeColor(){
-    this.setData({selected:!this.data.selected})
-  },
-  changeObjText(){
-    this.setData({"obj.text": "i am 2"})
-    console.log(1)
-  },
-  pushItem(){
-let array2 = this.data.array
-let newNumber = array2.push(array2.length + 1)
-this.setData({array2})
+
   },
 
   /**
@@ -39,10 +21,12 @@ this.setData({array2})
   onReady: function () {
 
   },
-  useReverse(){
-    this.setData({str2:this.data.str2.split('').reverse().join('')})},
+
+  /**
+   * 生命周期函数--监听页面显示
+   */
   onShow: function () {
-this.setData({str:"123123"})
+
   },
 
   /**

@@ -1,3 +1,4 @@
 /* pages/test/test.wxss */
 
 .tomato { color:tomato}
+.active{color: tomato;}
